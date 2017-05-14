@@ -44,7 +44,7 @@ exports.config = {
     elmBrunch: {
       executablePath: '../node_modules/elm/binwrappers',
       elmFolder: 'elm',
-      mainModules: ['src/Main.elm'],
+      mainModules: ['src/Main.elm', 'src/**/*.elm'],
       outputFolder: '../priv/static/js',
       outputFile: 'bundle.js',
       makeParameters: ['--warn']
